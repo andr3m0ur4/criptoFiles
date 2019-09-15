@@ -41,23 +41,4 @@ class UnsafeOpensslAES
         );
     }
 }
-/*
-$obj = new UnsafeOpensslAES ( );
-$key = '@ndr3M0ur4';
-//$valor_criptografado = $obj -> encrypt ( 'Texto para ser criptografado!!', $key );
-//echo $valor_criptografado . '<br>' . PHP_EOL;
-//$key = '@ndr3M0ra';
-$arquivo = file ( 'criptografar.txt' );
-$txt = '';
-foreach ( $arquivo as $linha ) {
-    $txt .= $linha;
-}
-$txt = $obj -> encrypt ( $txt, $key );
-if ( $obj -> decrypt ( $txt, $key ) ) {
-    $valor_descriptografado = $obj -> decrypt ( $txt, $key );
-    echo $valor_descriptografado;
-} else {
-    echo 'Chave incorreta';
-}
-*/
 ?>
