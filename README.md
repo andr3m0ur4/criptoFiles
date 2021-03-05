@@ -10,4 +10,4 @@ Use your terminal to execute the application.
 php -S localhost:8080
 ```
 
-Open [CriptoFiles](http://locahost:8080/) in your browser.
+Open [CriptoFiles](http://localhost:8080/) in your browser.
